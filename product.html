@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DROP ZERO — DESIGNATION</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/product.css">
+</head>
+<body class="product-page">
+
+  <div class="noise-overlay"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="header-brand">DROP ZERO</a>
+    <a href="collection.html" class="header-back">← MANIFEST</a>
+  </header>
+
+  <main class="product-container">
+
+    <div class="product-grid">
+
+      <div class="product-image-side">
+        <div class="product-img-wrap">
+          <div class="product-img placeholder" id="product-img"></div>
+          <div class="img-designation-code" id="img-code">DZ01-001</div>
+        </div>
+      </div>
+
+      <div class="product-info-side">
+
+        <div class="product-header">
+          <div class="product-codes">
+            <span class="p-code" id="p-code">DZ01-001</span>
+            <span class="p-series" id="p-series">DEAD AURA</span>
+          </div>
+          <h1 class="product-name" id="p-name">PURSUIT</h1>
+        </div>
+
+        <div class="product-specs">
+          <div class="spec-row">
+            <span class="spec-key">CONSTRUCTION</span>
+            <span class="spec-val">320GSM HEAVYWEIGHT COTTON</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">CUT</span>
+            <span class="spec-val">OVERSIZED / BOXY</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">PRINT</span>
+            <span class="spec-val">DTF / FULL COVERAGE</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-key">COLORWAY</span>
+            <span class="spec-val">BLACK BASE</span>
+          </div>
+        </div>
+
+        <div class="product-configure">
+
+          <div class="config-block">
+            <span class="config-label">CONFIGURATION (SIZE)</span>
+            <div class="size-grid" id="size-grid">
+              <button class="size-btn" data-size="S">S</button>
+              <button class="size-btn" data-size="M">M</button>
+              <button class="size-btn active" data-size="L">L</button>
+              <button class="size-btn" data-size="XL">XL</button>
+              <button class="size-btn" data-size="XXL">XXL</button>
+            </div>
+          </div>
+
+          <div class="units-block">
+            <div class="units-track">
+              <div class="units-bar" id="units-bar"></div>
+            </div>
+            <span class="units-text"><span id="units-left">15</span> UNITS REMAINING</span>
+          </div>
+
+          <div class="price-block">
+            <span class="price-label">UNIT PRICE</span>
+            <span class="price-val" id="p-price">₹1,800</span>
+          </div>
+
+          <button class="secure-btn" id="secure-btn">
+            <span>SECURE UNIT</span>
+            <span class="secure-arrow">→</span>
+          </button>
+
+          <p class="secure-note">Payment via UPI / Card. Unit reserved upon payment confirmation.</p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/product.js"></script>
+</body>
+</html>

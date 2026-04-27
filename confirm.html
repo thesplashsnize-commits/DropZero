@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DROP ZERO — SEQUENCE COMPLETE</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/confirm.css">
+</head>
+<body class="confirm-page">
+
+  <div class="noise-overlay"></div>
+
+  <main class="confirm-container">
+
+    <div class="confirm-core">
+
+      <div class="confirm-symbol">
+        <div class="symbol-cross"></div>
+      </div>
+
+      <div class="confirm-header">
+        <span class="confirm-system">SYS // PROCESSED</span>
+        <h1 class="confirm-title">SEQUENCE<br>COMPLETE</h1>
+      </div>
+
+      <div class="confirm-data">
+        <div class="data-row">
+          <span class="data-key">ORDER REF</span>
+          <span class="data-val" id="order-ref">DZ01-00000</span>
+        </div>
+        <div class="data-row">
+          <span class="data-key">DESIGNATION</span>
+          <span class="data-val" id="confirm-designation">—</span>
+        </div>
+        <div class="data-row">
+          <span class="data-key">CONFIGURATION</span>
+          <span class="data-val" id="confirm-size">—</span>
+        </div>
+        <div class="data-row">
+          <span class="data-key">STATUS</span>
+          <span class="data-val status-active">QUEUED FOR DISPATCH</span>
+        </div>
+        <div class="data-row">
+          <span class="data-key">DISPATCH WINDOW</span>
+          <span class="data-val">10 DAYS POST WINDOW CLOSE</span>
+        </div>
+      </div>
+
+      <div class="confirm-message">
+        <p>Your unit has been logged. Confirmation dispatched to your contact on record. No further action required.</p>
+      </div>
+
+      <div class="confirm-footer">
+        <span class="footer-text">DROP ZERO CYCLE 01 — WINDOW REMAINS OPEN</span>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="js/confirm.js"></script>
+</body>
+</html>
